@@ -1,0 +1,301 @@
+.dark-mode #home {
+  background-image: radial-gradient(circle, #000000, #333333);
+}
+
+.dark-mode #about {
+  background: linear-gradient(to right, #1a1a1a, #000000);
+  margin: 0px;
+}
+
+.dark-mode #education {
+  background: linear-gradient(to right, #1a1a1a, #000000);
+}
+
+.dark-mode #certification {
+  background: rgb(22, 27, 34);
+}
+
+.dark-mode #training {
+  background: rgb(22, 27, 34);
+}
+
+.dark-mode #skills {
+  background: rgb(33, 38, 45);
+}
+
+.dark-mode #projects-section {
+  background: rgb(33, 38, 45);
+}
+
+.dark-mode #contact {
+  background-color: #003153;
+  background-image: linear-gradient(315deg, #003153 0%, #1B1B1B 74%);
+}
+
+.dark-mode .items div {
+  background:  #00f2fe;
+}
+
+.dark-mode a {
+  color: white;
+}
+.dark-mode .glow-text {
+  font-size: 34px;
+  font-weight: bold;
+  text-shadow: 0 0 20px #00f2fe, 0 0 40px #4facfe;
+  color: #00f2fe;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+.dark-mode .links a {
+  color: #f5f5f5;
+}
+.dark-mode .nav {
+  animation: neonGlow 2s infinite alternate;
+  background: rgba(17, 17, 17, 0.1);
+  border-bottom: 2px solid #00f2fe;
+}
+@keyframes neonGlow {
+  0% {
+    box-shadow: 0 0 10px #00f2fe, 0 0 30px #4facfe;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #00f2fe, 0 0 50px #4facfe;
+  }
+
+  100% {
+    box-shadow: 0 0 15px #00f2fe, 0 0 40px #4facfe;
+  }
+}
+
+/* -------home------- */
+.dark-mode #home h1 {
+  color: white;
+}
+
+.dark-mode #home p {
+  color: white;
+  font-size: 20px;
+}
+
+.dark-mode .btn-primary {
+  background-color: #161B22;
+  color: white;
+}
+
+.dark-mode .btn-touch {
+  background-color: #232425;
+}
+
+.dark-mode .btn-touch:hover {
+  background-color: #2D333B;
+}
+
+/* --------about-------- */
+.dark-mode #about p {
+  color: #CCCCCC;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* ------education------ */
+.dark-mode .exp-card {
+  background: rgb(33, 38, 45);
+}
+
+.dark-mode .edu-item h3 {
+  color: #F5F5F5;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.dark-mode .edu-item p {
+  color: #CCCCCC;
+}
+
+.dark-mode .edu-item {
+  background-color: rgb(33, 38, 45);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* ------experience/training-------- */
+.dark-mode .exp-card h2 {
+  color: #F5F5F5;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.dark-mode .exp-card {
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.dark-mode .exp-card h4 {
+  color: #f8f7c1;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dark-mode .exp-card p {
+  color: #CCCCCC;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.dark-mode .modal-content {
+  background: rgb(22, 27, 34);
+}
+
+.dark-mode #modalTitle {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.dark-mode #modalText {
+  color: #aaa;
+  font-size: 17px;
+}
+
+/* -------certificate------ */
+.dark-mode .cert-item {
+  background-color: rgb(33, 38, 45);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.dark-mode .showcase h3 {
+  color: #eecf6b;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.dark-mode .showcase p {
+  color: #CCCCCC;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.dark-mode .cert-item:hover {
+  box-shadow: 0 0 25px 4px #00f2fe;
+}
+
+/* -----skills------- */
+.dark-mode .group-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f5f5f5;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+.dark-mode .skill-card h3 {
+  color: #E4E4E4;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.dark-mode .skill-card p {
+  color: #CCCCCC;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.dark-mode .skill-card {
+  background: rgb(22, 27, 34);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.dark-mode .skill-card:hover {
+  box-shadow: 0 0 15px 6px #00f2fe;
+}
+
+/* -------projects--------- */
+.dark-mode .overlay h4 {
+  color: #f8f7c1;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.dark-mode .overlay p {
+  color: #CCCCCC;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.dark-mode .responsive h4 {
+  color: #f8f7c1;
+}
+
+.dark-mode .responsive p {
+  color: #CCCCCC;
+}
+
+.dark-mode .mini-item h3 {
+  color: #E4E4E4;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.dark-mode .mini-item p {
+  color: #CCCCCC;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.dark-mode .edu-item {
+  background-color: rgb(33, 38, 45);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dark-mode .project-card {
+  background-color: rgb(33, 38, 45);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dark-mode .overlay {
+  background-color: #003153;
+  background-image: linear-gradient(315deg, #083352 0%, #1B1B1B 74%);
+}
+
+.dark-mode .project-btn a {
+  background-color: #4c4970;
+}
+
+.dark-mode .project-title {
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.dark-mode .mini-item a {
+  background-color: #A29BFE;
+}
+
+/* -------contact-------- */
+.dark-mode #contact .subtitle {
+  color: #CCCCCC;
+}
+
+.dark-mode .message:focus {
+  box-shadow: 0 0 8px 6px #00f2fe;
+}
+
+.dark-mode .download-btn {
+  background: linear-gradient(135deg, #0078ff, #00e0ff);
+}
+
+.dark-mode .contact-form button {
+  background: #04619F;
+}
+
+.dark-mode .edu-item:hover,
+.dark-mode .project-card:hover .dark-mode .skill-card:hover {
+  box-shadow: 0 0 25px #00f2fe;
+  transform: translateY(-10px);
+}
