@@ -31,7 +31,9 @@
     </div>
     <button id="theme-toggle">🌙</button>
   </section>
-<!-- -----------------home--------------- -->
+
+  <!-- -----------------home--------------- -->
+  <!-- FIX 1: Updated subtitle to be recruiter-friendly -->
   <section id="home">
     <div class="contents">
       <span class="heading">
@@ -40,7 +42,7 @@
       <div class="subtitle-wrapper">
         <span class="line"></span>
         <div class="subtitle-container">
-          <h2 class="subtitle" id="changing-text">Web Developer</h2>
+          <h2 class="subtitle" id="changing-text">Full Stack Web Developer | Flask · Python · JavaScript</h2>
         </div>
         <span class="line"></span>
       </div>
@@ -52,22 +54,27 @@
       <div class="icons">  💻 🧠 🎒 🔥</div>
       <div class="scroll">↓ Scroll to explore</div>
   </section>
-<!-- ---------About------------ -->
+
+  <!-- ---------About------------ -->
   <section id="about">
     <h1 class="glow-text">About Me</h1>
-    <img src="./img/Cropped_Image.png" alt="Naveen"    data-aos="fade-up" data-aos-duration="1300">
-    <p  data-aos="fade-up" data-aos-duration="1300">Hi, I'm Naveenraj 👋. I recently graduated with a B.Tech degree and I’ve always been curious about coding and how
-      websites are built. That curiosity turned into a real passion for web development. 
-      I love taking an idea and turning it into something interactive, simple to use, and visually appealing. I enjoy
-      experimenting with different layouts and building websites that not only look good but also work smoothly.
-      Right now, I'm focused on improving my skills every day and learning more about full-stack development. My goal is
-      to grow as a professional web developer and work on projects that truly make a difference.</p>
+    <img src="./img/Cropped_Image.png" alt="Naveen" data-aos="fade-up" data-aos-duration="1300">
+<p data-aos="fade-up" data-aos-duration="1300">
+  Hello! I'm Naveenraj, a passionate Software Developer and recent B.Tech
+  Information Technology graduate. I enjoy building modern, responsive,
+  and interactive web applications that provide clean user experiences.
+  My interests include frontend development, backend integration, UI design,
+  and solving real-world problems through technology. I continuously improve my skills by building projects, exploring new
+  technologies, and working on practical applications. My goal is to grow
+  as a full-stack developer and contribute to impactful software products.
+</p>
   </section>
-<!-- ----------------education----------------- -->
-  <section id="education"  >
+
+  <!-- ----------------education----------------- -->
+  <section id="education">
     <h1 class="glow-text" style="padding-bottom: 30px;">Qualifications</h1>
-    <div class="edu-left"data-aos="fade-up" data-aos-duration="1300">
-        <div class="edu-item">
+    <div class="edu-left" data-aos="fade-up" data-aos-duration="1300">
+      <div class="edu-item">
         <h3>Ganadipathy Tulsi's Jain Engineering College</h3>
         <p>2021 - 2025</p>
         <p>B.Tech - Information Technology</p>
@@ -80,12 +87,37 @@
       </div>
     </div>
   </section>
-<!-- ------------training-------------- -->
-  <section id="training" >
+
+  <!-- ------------training-------------- -->
+  <!-- FIX 2: Added Eduonix internship card -->
+  <section id="training">
     <h1 class="glow-text">Experience & Internships</h1>
     <div class="exp-grid" data-aos="fade-up" data-aos-duration="1200">
+<div class="exp-card">
+  <h2>Software Developer Intern</h2>
+  <h4>@Eduonix Technologies Pvt Ltd</h4>
+  <p>From April 2026 – Present</p>
+
+  <p>
+    Working as a Software Developer Intern on mobile and web application
+    development projects. Contributing to debugging, dependency management,
+    UI improvements, application testing, and issue fixing in React Native
+    applications.
+
+    Worked on solving Android compatibility issues related to 16KB memory
+    page size support for Google Play Store compliance, application setup,
+    and performance optimization.
+  </p>
+
+  <p>
+    Skills gained: React Native, Android Debugging, Git, GitHub,
+    Dependency Management, App Testing, JavaScript,App Development
+  </p>
+</div>
+
+
       <div class="exp-card">
-        <h2>Web Development Intern </h2>
+        <h2>Web Development Intern</h2>
         <h4>@Joy Innovations Pvt Ltd - Vellore</h4>
         <p>From July 2024 - August 2024</p>
         <p>Gained practical experience in web development at Joy Innovations by working on a Canva Clone project and
@@ -93,7 +125,7 @@
           internship provided an opportunity to explore, practice, and grow, strengthening both my technical expertise
           and creative abilities.</p>
         <p>Skills gained: HTML, CSS, JavaScript, Responsive Design</p>
-        <button class="cert-btn" data-title="Joy Innovations Certificate" data-img="./img/naveen.jpg"  
+        <button class="cert-btn" data-title="Joy Innovations Certificate" data-img="./img/naveen.jpg"
           data-text="Certificate for Full Stack Internship at Joy Innovations, including Canva Clone and Portfolio projects.">View
           Certificate</button>
       </div>
@@ -108,11 +140,12 @@
           reinforced the importance of logical thinking, condition handling, and writing clean code.</p>
         <p>Skills gained: Python fundamentals, Logic, Mini Projects</p>
         <button class="cert-btn" data-title="Python Internship Certificate" data-img="./img/NaveenRaj_C_.png"
-          data-text="Certificate for Python Internship at Besant Technologies, including Rock Paper Scissors mini project."  >View
+          data-text="Certificate for Python Internship at Besant Technologies, including Rock Paper Scissors mini project.">View
           Certificate</button>
       </div>
     </div>
   </section>
+
   <div id="certModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
@@ -121,12 +154,13 @@
       <p id="modalText"></p>
     </div>
   </div>
-<!-- ---------certificates------------- -->
-  <section id="certification" >
+
+  <!-- ---------certificates------------- -->
+  <section id="certification">
     <h1 class="glow-text">Certifications & Achievements</h1>
     <div class="cert-grid" data-aos="fade-up" data-aos-duration="1200">
       <div class="content"></div>
-       <div class="cert-item" style="padding: 10px;">
+      <div class="cert-item" style="padding: 10px;">
         <img src="./img/NAVEENRAJ CR001219 (1)_page-0001.jpg" alt="FIIT">
         <button class="view">Explore</button>
         <div class="showcase">
@@ -137,7 +171,7 @@
           Backend: Python
           Database concepts and application development
           Building responsive and dynamic web applications
-          Achieved “Excellent” performance, demonstrating strong technical understanding and practical implementation skills.
+          Achieved "Excellent" performance, demonstrating strong technical understanding and practical implementation skills.
           📅 Issued: February 2026</p>
         </div>
       </div>
@@ -154,7 +188,7 @@
         <button class="view">Explore</button>
         <div class="showcase">
           <h3>CareerVerse 2026 – Naukri Campus</h3>
-          <p>Participated in CareerVerse, India’s largest virtual career fair by Naukri Campus, and achieved Top 2% in job readiness among participants.
+          <p>Participated in CareerVerse, India's largest virtual career fair by Naukri Campus, and achieved Top 2% in job readiness among participants.
           Completed modules include:
           AI Spoken English Evaluation
           Prompt Mastery
@@ -189,31 +223,32 @@
       </div>
     </div>
   </section>
-<!-- SKILLS -->
+
+  <!-- SKILLS -->
   <section id="skills" style="padding-top: 20px;">
     <h1 class="glow-text">Skills</h1>
     <div class="skills-container">
       <!-- Web Development Group -->
-      <div class="group" >
+      <div class="group">
         <h2 class="group-title">Web Development</h2>
-        <div class="group-cards" >
+        <div class="group-cards">
           <!-- Frontend -->
           <div class="skill-card" data-aos="fade-up" data-aos-duration="1200">
             <h3>💻 Frontend Stack</h3>
             <div class="skill-content">
-              <img src="./img/html (1).png" alt="HTML" title="HTML"  >
-              <img src="./img/css (1).png" alt="CSS" title="CSS"  >
-              <img src="./img/javascript.png" alt="JavaScript" title="JavaScript"  >
+              <img src="./img/html (1).png" alt="HTML" title="HTML">
+              <img src="./img/css (1).png" alt="CSS" title="CSS">
+              <img src="./img/javascript.png" alt="JavaScript" title="JavaScript">
             </div>
             <p>Creates responsive and visually engaging interfaces using HTML, CSS, and JavaScript, focused on seamless
               interaction and modern design.</p>
           </div>
-          <!-- -----backend----- -->
+          <!-- backend -->
           <div class="skill-card" data-aos="fade-up" data-aos-duration="1200">
             <h3>🛠️ Backend & DataBase 🗃️</h3>
             <div class="skill-content">
-              <img src="./img/icons8-flask-150.png" alt="Flask" title="Flask"  >
-              <img src="./img/SQLite.png" alt="Flask" title="sql"  >
+              <img src="./img/icons8-flask-150.png" alt="Flask" title="Flask">
+              <img src="./img/SQLite.png" alt="Flask" title="sql">
             </div>
             <p>Builds backend logic with Flask and handles data storage using SQLite for efficient and reliable web
               applications.</p>
@@ -222,7 +257,7 @@
           <div class="skill-card" data-aos="fade-up" data-aos-duration="1200">
             <h3>💅 CSS Framework</h3>
             <div class="skill-content">
-              <img src="./img/icons8-bootstrap-50.png" alt="Bootstrap" title="Bootstrap"  >
+              <img src="./img/icons8-bootstrap-50.png" alt="Bootstrap" title="Bootstrap">
             </div>
             <p>Crafting modern, responsive, and well-structured layouts with the Bootstrap framework for faster and
               efficient design.</p>
@@ -230,7 +265,7 @@
         </div>
       </div>
 
-      <!-- 💻 Programming & Tools Group -->
+      <!-- Languages & Technology Group -->
       <div class="group">
         <h2 class="group-title">Languages & Technology</h2>
         <div class="group-cards">
@@ -238,19 +273,18 @@
           <div class="skill-card" data-aos="fade-up" data-aos-duration="1200">
             <h3>💬 Core Languages</h3>
             <div class="skill-content">
-              <img src="./img/python.png" alt="Python" title="Python"  >
+              <img src="./img/python.png" alt="Python" title="Python">
             </div>
             <p>Writing clean and efficient code in Python for developing dynamic and scalable solutions.</p>
           </div>
-
           <!-- Tools -->
           <div class="skill-card" data-aos="fade-up" data-aos-duration="1200">
             <h3>🧰 Dev Tools</h3>
             <div class="skill-content">
-              <img src="./img/visual-studio-code.png" alt="VS Code" title="VS Code"  >
-              <img src="./img/git.png" alt="Git" title="Git"  >
-              <img src="./img/github.png" alt="GitHub" title="GitHub"  >
-              <img src="./img/pycharm-icon.png" alt="GitHub" title="GitHub"  >
+              <img src="./img/visual-studio-code.png" alt="VS Code" title="VS Code">
+              <img src="./img/git.png" alt="Git" title="Git">
+              <img src="./img/github.png" alt="GitHub" title="GitHub">
+              <img src="./img/pycharm-icon.png" alt="PyCharm" title="PyCharm">
             </div>
             <p>Utilizing modern development tools for efficient version control and project management.</p>
           </div>
@@ -258,22 +292,19 @@
       </div>
     </div>
   </section>
-<!-- PROJECTS -->
-  <section id="projects-section" >
-    <h1 style=" margin-bottom: 30px; font-size: 28px;" class="glow-text">My Projects</h1>
+
+  <!-- PROJECTS -->
+  <!-- FIX 3: Reordered — Aadhaar ML and ZenFocus moved to top -->
+  <!-- FIX 4: Removed duplicate .responsive "Project Description" divs -->
+  <section id="projects-section">
+    <h1 style="margin-bottom: 30px; font-size: 28px;" class="glow-text">My Projects</h1>
     <div class="projects-grid">
+
+      <!-- 1. Aadhaar ML — technically strongest, moved first -->
       <div class="project-card" data-aos="fade-up" data-aos-duration="1200">
-        <img src="./img/project.jpg" alt="Project 1" style="position: relative;"  >
+        <img src="./img/project.jpg" alt="Project 1" style="position: relative;">
         <h3 class="project-title">Image-Based Aadhaar & Smart Card Verification for Secure Government Loan Waivers</h3>
         <div class="overlay">
-          <h4>Project Description</h4>
-          <p>Developed an intelligent web application that extracts and validates data from Aadhaar and Smart Card QR
-            codes using the Pyzbar library and machine learning for eligibility prediction. Built with modern frontend
-            tools, Flask backend, and SQLite for secure storage, the system uses sample datasets instead of real Aadhaar
-            or Smart Card data to ensure privacy while enabling accurate and efficient verification for government loan
-            waivers.</p>
-        </div>
-        <div class="responsive">
           <h4>Project Description</h4>
           <p>Developed an intelligent web application that extracts and validates data from Aadhaar and Smart Card QR
             codes using the Pyzbar library and machine learning for eligibility prediction. Built with modern frontend
@@ -286,22 +317,30 @@
         </div>
       </div>
 
-
+      <!-- 2. ZenFocus — moved second -->
       <div class="project-card" data-aos="fade-up" data-aos-duration="1200">
-        <img src="./img/amazon.png" alt="Project 3"  >
+        <img src="./img/Zenfocus.PNG" alt="ZenFocus">
+        <h3 class="project-title">ZenFocus - Improve Productivity and Mindfulness</h3>
+        <div class="overlay">
+          <h4>Project Description</h4>
+          <p>ZenFocus is a lightweight single-page productivity app built with HTML, CSS, and JavaScript,
+            offering task management, a focus timer, and motivational quotes all running fully on the client side.
+            It uses LocalStorage to persist user data and highlights strong skills in SPA design, DOM manipulation, and responsive UI
+            without any frameworks or backend.</p>
+        </div>
+        <div class="project-btn">
+          <a href="https://naveen2003raj.github.io/ZenFocus/#todo" target="_blank">Live Link</a>
+        </div>
+      </div>
+
+      <!-- 3. Amazon Clone -->
+      <div class="project-card" data-aos="fade-up" data-aos-duration="1200">
+        <img src="./img/amazon.png" alt="Amazon Clone">
         <h3 class="project-title">Amazon Landing Page Clone</h3>
         <div class="overlay">
           <h4>Project Description</h4>
           <p>Built an Amazon Landing Page Clone using HTML, CSS, and JavaScript.
-            Designed responsive layouts and product grids to replicate Amazon’s interface.
-            Implemented interactive image carousel and hover animations for better UX.
-            Applied CSS Flexbox and Grid for structured, adaptive content sections.
-            Strengthened front-end skills in layout design, styling, and dynamic UI effects.</p>
-        </div>
-        <div class="responsive">
-          <h4>Project Description</h4>
-          <p>Built an Amazon Landing Page Clone using HTML, CSS, and JavaScript.
-            Designed responsive layouts and product grids to replicate Amazon’s interface.
+            Designed responsive layouts and product grids to replicate Amazon's interface.
             Implemented interactive image carousel and hover animations for better UX.
             Applied CSS Flexbox and Grid for structured, adaptive content sections.
             Strengthened front-end skills in layout design, styling, and dynamic UI effects.</p>
@@ -311,17 +350,11 @@
         </div>
       </div>
 
+      <!-- 4. Personal Portfolio -->
       <div class="project-card" data-aos="fade-up" data-aos-duration="1200">
-        <img src="./img/Screenshot (16).png" alt="Project 2" >
+        <img src="./img/Screenshot (16).png" alt="Portfolio">
         <h3 class="project-title">Personal Portfolio Website (Bootstrap)</h3>
         <div class="overlay">
-          <h4>Project Description</h4>
-          <p>Initially built during my internship using custom CSS, this portfolio was later redesigned with Bootstrap
-            to strengthen my responsive design and framework skills. The project focuses on clean navigation, structured
-            sections, and a modern layout while practicing component reusability, grid systems, and responsive
-            breakpoints.</p>
-        </div>
-        <div class="responsive">
           <h4>Project Description</h4>
           <p>Initially built during my internship using custom CSS, this portfolio was later redesigned with Bootstrap
             to strengthen my responsive design and framework skills. The project focuses on clean navigation, structured
@@ -333,17 +366,11 @@
         </div>
       </div>
 
-      <div class="project-card" class="canva" data-aos="fade-up" data-aos-duration="1200">
-        <img src="./img/prd.png" alt="Project 2" style="width: 100%; height: 210px;"  >
+      <!-- 5. Product Sales Analysis -->
+      <div class="project-card" data-aos="fade-up" data-aos-duration="1200">
+        <img src="./img/prd.png" alt="Product Sales" style="width: 100%; height: 210px;">
         <h3 class="project-title">Product Sales Analysis</h3>
         <div class="overlay">
-          <h4>Project Description</h4>
-          <p>Led a team of three during my college days as part of the Naan Mudhalvan course on Data Analytics. Using
-            IBM Cognos, we developed an interactive product sales analytics dashboard by gathering and analyzing
-            datasets to identify key sales trends and insights. The project was submitted on GitHub, providing hands-on
-            experience in data visualization and business intelligence.</p>
-        </div>
-        <div class="responsive">
           <h4>Project Description</h4>
           <p>Led a team of three during my college days as part of the Naan Mudhalvan course on Data Analytics. Using
             IBM Cognos, we developed an interactive product sales analytics dashboard by gathering and analyzing
@@ -355,49 +382,22 @@
         </div>
       </div>
 
-     <div class="project-card" data-aos="fade-up" data-aos-duration="1200">
-        <img src="./img/Zenfocus.PNG" alt="Project 2" >
-        <h3 class="project-title">ZenFocus - Improve productivity and Mindfulness</h3>
-        <div class="overlay">
-          <h4>Project Description</h4>
-          <p>ZenFocus is a lightweight single-page productivity app built with HTML, CSS, and JavaScript, 
-            offering task management, a focus timer, and motivational quotes all running fully on the client side. 
-            It uses LocalStorage to persist user data and highlights strong skills in SPA design, DOM manipulation, and responsive UI 
-            without any frameworks or backend.</p>
-        </div>
-        <div class="responsive">
-          <h4>Project Description</h4>
-          <p>ZenFocus is a lightweight single-page productivity app built with HTML, CSS, and JavaScript, 
-            offering task management, a focus timer, and motivational quotes all running fully on the client side. 
-            It uses LocalStorage to persist user data and highlights strong skills in SPA design, DOM manipulation, and responsive UI 
-            without any frameworks or backend.</p>
-        </div>
-        <div class="project-btn">
-          <a href="https://naveen2003raj.github.io/ZenFocus/#todo" target="_blank">Live Link</a>
-        </div>
-      </div>
-
       <!-- Mini Projects Section -->
-      <div class="project-card " data-aos="fade-up" data-aos-duration="1200">
+      <div class="project-card" data-aos="fade-up" data-aos-duration="1200">
         <h1 class="glow-text" id="mini">🚀 Mini Projects</h1>
         <div class="mini-grid">
-          <!-- Project 1 -->
           <div class="mini-item">
             <h3>KFC Homepage Design</h3>
             <p>Built a KFC Landing Page using HTML and CSS with image mapping for interactive.
               Included sections like Home, Menu, and Contact, focusing on responsive layout and design.</p>
             <a href="https://landingpageusinghtml.netlify.app/" target="_blank" class="github-btn">Live Link</a>
           </div>
-
-          <!-- Project 2 -->
           <div class="mini-item">
             <h3>Solar System Animation</h3>
             <p>Designed a Solar System animation using HTML and CSS with keyframes and transformations to simulate
               planetary motion, strengthening my CSS animations and layout positioning.</p>
             <a href="https://naveen2003raj.github.io/Solar-System/" target="_blank" class="github-btn">Live Link</a>
           </div>
-
-          <!-- Project 3 -->
           <div class="mini-item">
             <h3>Calculator</h3>
             <p>Implement a functional calculator using HTML, CSS, and JavaScript with basic arithmetic operations and a
@@ -406,12 +406,14 @@
           </div>
         </div>
       </div>
+
     </div>
   </section>
-<!-- -----------contact--------- -->
+
+  <!-- -----------contact--------- -->
   <section id="contact">
     <h1 class="glow-text">Contact Me</h1>
-    <h3 class="subtitle">Let’s connect and collaborate</h3>
+    <h3 class="subtitle">Let's connect and collaborate</h3>
     <div class="contact-container" data-aos="fade-up" data-aos-duration="1200">
       <form class="contact-form">
         <input type="text" placeholder="Your Name" class="message" required>
@@ -423,37 +425,35 @@
     <a href="./files/Naveenraj_Resume.pdf" download>
       <button class="download-btn">Download CV</button>
     </a>
-    <!-- Left: Contact info -->
     <div class="contact-info">
       <div class="info-item">
-        <a href="mailto:naveenraj1732@gmail.com"><img src="./img/gmail.png" alt="Email"  ></a>
-
+        <a href="mailto:naveenraj1732@gmail.com"><img src="./img/gmail.png" alt="Email"></a>
       </div>
       <div class="info-item">
-        <a href="tel:+919442101499"><img src="./img/phone.png" alt="Phone"  ></a>
-
+        <a href="tel:+919442101499"><img src="./img/phone.png" alt="Phone"></a>
       </div>
       <div class="info-item">
-        <a href="https://www.linkedin.com/in/naveenraj-c-9b5b2729b/" target="_blank"> <img src="./img/linkedin.png"
-            alt="LinkedIn"  ></a>
+        <a href="https://www.linkedin.com/in/naveenraj-c-9b5b2729b/" target="_blank"><img src="./img/linkedin.png" alt="LinkedIn"></a>
       </div>
       <div class="info-item">
-        <a href="https://github.com/Naveen2003Raj" target="_blank"><img src="./img/github.png" alt="Github"   ></a>
+        <a href="https://github.com/Naveen2003Raj" target="_blank"><img src="./img/github.png" alt="Github"></a>
       </div>
       <div class="info-item">
-        <a href="https://www.instagram.com/itz_naveen.raj/#" target="_blank"><img src="./img/instagram.png"  
-            alt="LinkedIn"></a>
+        <a href="https://www.instagram.com/itz_naveen.raj/#" target="_blank"><img src="./img/instagram.png" alt="Instagram"></a>
       </div>
     </div>
   </section>
-   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <p class="footer-text">
+  Designed & Developed by Naveenraj © 2026
+</p>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    //  ------------toggle to dark and white-------------
+    // toggle dark/light mode
     const menu = document.querySelector(".links");
     const toggle = document.getElementById("menu");
     const toggleBtn = document.getElementById("theme-toggle");
     toggle.addEventListener("click", (e) => {
-      e.stopPropagation(); 
+      e.stopPropagation();
       menu.style.display = menu.style.display === "flex" ? "none" : "flex";
     });
 
@@ -465,21 +465,17 @@
 
     toggleBtn.addEventListener("click", () => {
       document.body.classList.toggle("dark-mode");
-
-      // Change icon text
-      if (document.body.classList.contains("dark-mode")) {
-        toggleBtn.textContent = "☀️"; // Light mode icon
-      } else {
-        toggleBtn.textContent = "🌙"; // Dark mode icon
-      }
+      toggleBtn.textContent = document.body.classList.contains("dark-mode") ? "☀️" : "🌙";
     });
 
-// -------home script for role changing-----
+    // hero role cycling
     const textArray = [
+      "Full Stack Web Developer",
+      "Flask · Python · JavaScript",
       "Frontend Developer",
-      "Python Coder",
       "Tech Enthusiast",
-      "Web Developer"
+      "React Native Developer",
+      
     ];
     let index = 0;
     const textElement = document.getElementById("changing-text");
@@ -495,7 +491,7 @@
     }
     setInterval(changeText, 2500);
 
-// --------modal for show certificate--------
+    // modal for certificates
     const modal = document.getElementById('certModal');
     const modalTitle = document.getElementById('modalTitle');
     const modalText = document.getElementById('modalText');
@@ -508,15 +504,14 @@
         modalText.textContent = btn.dataset.text;
         modalImg.src = btn.dataset.img;
         modalTitle.style.textAlign = "center";
-
         modal.style.display = 'flex';
-        document.body.classList.add('modal-open'); 
+        document.body.classList.add('modal-open');
       });
     });
 
     closeBtn.addEventListener('click', () => {
       modal.style.display = 'none';
-      document.body.classList.remove('modal-open'); 
+      document.body.classList.remove('modal-open');
     });
 
     window.addEventListener('click', (e) => {
@@ -526,17 +521,15 @@
       }
     });
 
-// --------content show when click view btn------------
-    var showcase = document.querySelectorAll('.showcase');
-    var view = document.querySelectorAll('.view');
-    view.forEach(view => {
+    // cert expand/collapse
+    document.querySelectorAll('.view').forEach(view => {
       view.addEventListener("click", () => {
-        showcase = view.nextElementSibling;
+        const showcase = view.nextElementSibling;
         showcase.style.display = showcase.style.display === "block" ? "none" : "block";
       });
-    })
-     
-     document.addEventListener("DOMContentLoaded", function() {
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
       AOS.init({
         duration: 1000,
         easing: 'ease-in-out',
